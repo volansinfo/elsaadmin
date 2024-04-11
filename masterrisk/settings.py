@@ -137,8 +137,8 @@ if use_postgres == "1":
             "NAME": os.getenv("POSTGRES_DB", "elsaAdmin"),
             "USER": os.getenv("POSTGRES_USER", "nLF5Bj8ARYqj9rZc"),
             "PASSWORD": os.getenv("POSTGRES_PASSWORD", "wD4:zL3&zK3&jD7$"),
-            "HOST": os.getenv("POSTGRES_HOST", "localhost"),
-            "PORT": os.getenv("POSTGRES_PORT", 31522),
+            "HOST": os.getenv("POSTGRES_HOST", "elsaadmin-s23vi-postgresql.elsaadmin-s23vi.svc.cluster.local"),
+            "PORT": os.getenv("POSTGRES_PORT", 5432),
         }
     }
 else:
@@ -148,8 +148,8 @@ else:
             "NAME": os.getenv("POSTGRES_DB", "elsaAdmin"),
             "USER": os.getenv("POSTGRES_USER", "nLF5Bj8ARYqj9rZc"),
             "PASSWORD": os.getenv("POSTGRES_PASSWORD", "wD4:zL3&zK3&jD7$"),
-            "HOST": os.getenv("POSTGRES_HOST", "localhost"),
-            "PORT": os.getenv("POSTGRES_PORT", 31522),
+            "HOST": os.getenv("POSTGRES_HOST", "elsaadmin-s23vi-postgresql.elsaadmin-s23vi.svc.cluster.local"),
+            "PORT": os.getenv("POSTGRES_PORT", 5432),
         }
     }
 
