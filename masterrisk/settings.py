@@ -39,6 +39,7 @@ ALLOWED_HOSTS = [
     'masterrisktool.com',
     "apiewn.unilink360.com",
     "apiewn.unilink360.com",
+    "elsaadmin-hrcdu.kinsta.app",
 ]
 
 HOSTNAME = os.getenv("HOSTNAME", "localhost")
