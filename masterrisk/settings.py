@@ -134,7 +134,7 @@ if use_postgres == "1":
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
-            "NAME": os.getenv("POSTGRES_DB", "postgres"),
+            "NAME": os.getenv("POSTGRES_DB", "elsaAdmin"),
             "USER": os.getenv("POSTGRES_USER", "nLF5Bj8ARYqj9rZc"),
             "PASSWORD": os.getenv("POSTGRES_PASSWORD", "wD4:zL3&zK3&jD7$"),
             "HOST": os.getenv("POSTGRES_HOST", "elsaadmin-s23vi-postgresql.external.kinsta.app"),
@@ -145,7 +145,7 @@ else:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
-            "NAME": os.getenv("POSTGRES_DB", "postgres"),
+            "NAME": os.getenv("POSTGRES_DB", "elsaAdmin"),
             "USER": os.getenv("POSTGRES_USER", "nLF5Bj8ARYqj9rZc"),
             "PASSWORD": os.getenv("POSTGRES_PASSWORD", "wD4:zL3&zK3&jD7$"),
             "HOST": os.getenv("POSTGRES_HOST", "elsaadmin-s23vi-postgresql.external.kinsta.app"),
